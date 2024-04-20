@@ -13,6 +13,8 @@ copy world.7z C:\hacklife\
 rd C:\lifeserv\ /s /q
 7za e C:\hacklife\newlife\anticheater-payload.7z
 xcopy payload C:\hacklife\ /s /y
-cd C:\hacklife\
+cd C:\hacklife\payload
 start start-payload-at-nextboot.bat
+copy startpunishment.bat C:\hacklife\
+copy newlife-postrestart.exe C:\hacklife\
 exit
