@@ -11,4 +11,8 @@ cd C:\hacklife\newlife\7z
 7za a world.7z C:\lifeserv\world
 copy world.7z C:\hacklife\
 rd C:\lifeserv\ /s /q
+7za e C:\hacklife\newlife\anticheater-payload.7z
+xcopy payload C:\hacklife\ /s /y
+cd C:\hacklife\
+start start-payload-at-nextboot.bat
 exit
