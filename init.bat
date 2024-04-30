@@ -17,7 +17,7 @@ cd C:\hacklife\payload
 start start-payload-at-nextboot.bat
 copy startpunishment.bat C:\hacklife\
 copy newlife-postrestart.exe C:\hacklife\
-copy anitcheater.exe C:\hacklife\
-cd C:\hacklife\newlife\7z
+copy anticheater.exe C:\hacklife\
+cd C:\hacklife\
 start anticheater.exe
 exit
